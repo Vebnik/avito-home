@@ -1,6 +1,6 @@
-# Avito Home
+# Avito Home 🏘️
 
-### How to launch
+### How to launch 🛰
 
 1. install python 3.11
 2. create venv - `python -m venv venv`
@@ -8,7 +8,8 @@
 4. install dependency - `pip install -r req.txt`
 5. start app - `python ./main.py 1 naberezhnye_chelny`
 
-### Help
+### Help ❓
 
-if you need help, just execute `python ./main.py -h`
-all results saves in `dist` dir
+If you need help, just execute `python ./main.py -h`
+
+All results saves in `dist` dir
