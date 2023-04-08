@@ -19,6 +19,7 @@ class Advertising:
     def __str__(self) -> str:
         return f'{self.title} | {self.url}'
 
+
 @dataclass
 class AdvtType:
     home_time = 'kvartiry/sdam/na_dlitelnyy_srok'

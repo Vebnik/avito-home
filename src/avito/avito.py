@@ -1,5 +1,6 @@
 import logging
 import json
+import os
 from bs4 import BeautifulSoup
 from re import compile
 
@@ -25,6 +26,9 @@ class Avito:
             logging.info(f'Completed {page} page')
 
         try:
+            if 'dist' not in os.listdir('.'):
+                os.mkdir('dist')
+
             if save:
                 with open(f"dist/{Utils.date()}.json", 'w') as file:
                     json_data = json.dumps(
