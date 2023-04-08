@@ -11,3 +11,4 @@
 ### Help
 
 if you need help, just execute `python ./main.py -h`
+all results saves in `dist` dir
