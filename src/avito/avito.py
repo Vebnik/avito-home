@@ -22,6 +22,9 @@ class Avito:
 
         for page in range(self.params.get('pages')):
             response = Http.get(self._url_compare(page))
+
+            logging.info(f'{response.code} {response.status}')
+
             data.extend(self._parse_data(response.data))
             logging.info(f'Completed {page} page')
 
